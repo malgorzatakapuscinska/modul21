@@ -1,0 +1,25 @@
+{
+  "name": "modul21",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/malgorzatakapuscinska/modul21.git"
+  },
+  "keywords": [
+    "monogose"
+  ],
+  "author": "Małgorzata Kapuścińska",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/malgorzatakapuscinska/modul21/issues"
+  },
+  "homepage": "https://github.com/malgorzatakapuscinska/modul21#readme",
+  "dependencies": {
+    "mongoose": "^5.0.17"
+  }
+}
