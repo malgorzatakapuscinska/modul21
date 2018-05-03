@@ -1,7 +1,15 @@
 const mongoose = require('mongoose');
 const Schema = mongoose.Schema;
 
-/*mongoose.Promise = global.Promise;*/
+PORT = process.env.PORT || 5000,
+ express = require('express'),
+ app = express();
+
+app.get('/', (req, res) => res.send('Hello World!'));
+
+app.listen(PORT, () => console.log('Example app listening on port 3000!'));
+
+mongoose.Promise = global.Promise;
 mongoose.connect('mongodb://gosia:matrix@ds111420.mlab.com:11420/nodeappdatabase'
 });
 
