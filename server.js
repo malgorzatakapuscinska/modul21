@@ -9,7 +9,7 @@ app.get('/', (req, res) => res.send('Hello World!'));
 app.listen(PORT, () => console.log('Example app listening on port 3000!'));
 
 mongoose.Promise = global.Promise;
-mongoose.connect('mongodb://admin:strongPassword@ds261969.mlab.com:61969/nodeappdatabase');
+mongoose.connect('mongodb://gosia:matrix@ds111420.mlab.com:11420/nodeappdatabase');
 
 const userSchema = new Schema({
   name: String,
